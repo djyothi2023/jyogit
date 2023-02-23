@@ -10,7 +10,7 @@ dir=$HOME/perscholas/learnbash
  FILE=$dir/command.txt
  #echo $FILE
 lines=$(wc -l <  ${FILE})
- #echo $lines
+ 
 counter=1
 while [ $counter -le $userval ]; do
 
